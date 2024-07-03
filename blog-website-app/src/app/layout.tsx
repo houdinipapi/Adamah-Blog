@@ -21,7 +21,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={raleway.className}>
 
-          <header>
+          {/* <header>
             <nav>
               <SignedIn>
                 <UserButton />
@@ -30,10 +30,10 @@ export default function RootLayout({
                 <SignInButton />
               </SignedOut>
             </nav>
-          </header>
+          </header> */}
 
+          <Header />
           <main>
-            <Header />
             {children}
           </main>
           

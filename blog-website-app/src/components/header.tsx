@@ -1,21 +1,26 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
 
 const Header = () => {
   return (
     <div className='bg-gray-600 text-neutral-100'>
-        <div className="container mx-auto flex items-center justify-between py-4">
-            <Link href="/">Home</Link>
-
-            <div>
-                <div className='flex items-center gap-4'>
-                    <Link href="/sign-up">Sign up</Link>
-                    <Link href="/login">Log in</Link>
-                </div>
+      <div className="container mx-auto flex items-center justify-between py-4">
+        <Link href="/">Home</Link>
+        <div>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+          <SignedOut>
+            <div className='flex items-center gap-4'>
+              <Link href="/sign-up">Sign up</Link>
+              <Link href="/sign-in">Log in</Link>
             </div>
+          </SignedOut>
         </div>
+      </div>
     </div>
   )
 }
 
-export default Header
+export default Header;
