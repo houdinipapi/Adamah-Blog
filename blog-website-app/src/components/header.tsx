@@ -11,6 +11,7 @@ const Header = () => {
         <div className='flex items-center gap-4'>
           <SignedIn>
             <Link href="about">About</Link>
+            <Link href="dashboard">Dashboard</Link>
             <UserButton />
           </SignedIn>
           <SignedOut>
