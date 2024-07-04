@@ -1,10 +1,11 @@
 "use client"
 
-import { SignIn } from "@clerk/nextjs";
+import Home from "@/app/page";
+import { SignUp } from "@clerk/nextjs";
 import { useAuth } from "@clerk/nextjs";
 import { useEffect } from "react";
 
-export default function SignInPage() {
+export default function SignUpPage() {
   const { isSignedIn } = useAuth();
 
   useEffect(() => {
@@ -12,8 +13,12 @@ export default function SignInPage() {
   }, [isSignedIn]);
 
   if (!isSignedIn) {
-    return <SignIn />;
+    return <SignUp />;
   }
 
-  return <div>You are already signed in.</div>;
+  return (
+    <div>
+      You are signed in.
+    </div>
+  );
 }
