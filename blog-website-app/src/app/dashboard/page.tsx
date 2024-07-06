@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Dashboard = () => {
   return (
-    <div className="relative min-h-screen bg-gray-100 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="relative min-h-screen bg-gray-50 flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8">
 
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Image
