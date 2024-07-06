@@ -11,17 +11,24 @@ const Dashboard = () => {
           alt="Dashboard Image"
           layout="fill"
           objectFit="cover"
-          quality={100}
-          className="opacity-50"
+          className="opacity-70"
         />
       </div>
 
-      <div className="relative z-10 bg-white p-6 rounded-lg shadow-lg">
+      <div className="relative">
         <div>
-          <h1 className="font-bold text-center text-3xl mt-10">Dashboard</h1>
+          <h1 className="font-bold text-center text-3xl">Dashboard</h1>
         </div>
-        <div className="mt-4">
-          <p className="text-lg">
+        <div className="mt-4 columns-3">
+          <p className="text-lg shadow-lg rounded-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
+          </p>
+
+          <p className="text-lg shadow-lg rounded-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
+          </p>
+
+          <p className="text-lg shadow-lg rounded-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
           </p>
         </div>
