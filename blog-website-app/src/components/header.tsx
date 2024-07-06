@@ -12,6 +12,7 @@ const Header = () => {
           <SignedIn>
             <Link href="about">About</Link>
             <Link href="dashboard">Dashboard</Link>
+            <Link href="contact">Contact</Link>
             <UserButton />
           </SignedIn>
           <SignedOut>
