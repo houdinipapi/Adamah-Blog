@@ -24,7 +24,7 @@ const Dashboard = () => {
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/dash2.jpg"
+              src="/images/dash3.jpg"
               alt="dashboard image"
               width={1000}
               height={1000}
@@ -33,10 +33,33 @@ const Dashboard = () => {
           </div>
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <p className="shadow-lg text-xl rounded-lg p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-              Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. <br />
-              Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias. <br />
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              Dear mother, I know you&apos;re concerned,<br />
+              About my decision to take to the streets, to be heard.<br />
+              But I must stand up, for what is right,<br />
+              For justice and freedom, for the light.<br />
+              <br />
+
+              Last week&apos;s demonstration, a memory so vivid,<br />
+              The armed turned against us, with bullets so cruel and vivid.<br />
+              Many lives lost, many left maimed and broken,<br />
+              But I will not falter, my spirit unspoken.<br />
+              <br />
+
+              I&apos;ve heard of abduction, of innocent citizens taken,<br />
+              In broad daylight, their rights forsaken.<br />
+              But I will not be silenced, I will not be a coward,<br />
+              I&apos;ll take to the streets, to be heard, to be a beacon.<br />
+              <br />
+
+              If I don&apos;t return, tell my younger siblings to be strong,<br />
+              To never give up, to fight for what is right.<br />
+              To use my pen to communicate, to spread the word and be bold,<br />
+              To give victims a befitting send off, if need be donate blood wholeheartedly,<br />
+              Together we&apos;ll rise, and this iron fist regime requiem will be conducted.<br />
+              <br />
+              <i>~ OCHIENG ONYANGO</i>
+
             </p>
           </div>
 
@@ -55,7 +78,7 @@ const Dashboard = () => {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/dash3.jpg"
+              src="/images/dash2.jpg"
               alt="dashboard image"
               width={1000}
               height={1000}
