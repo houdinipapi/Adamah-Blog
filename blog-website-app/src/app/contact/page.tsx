@@ -8,8 +8,8 @@ const Contact: React.FC = () => {
 
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Image
-          src="/images/dash1.jpg"
-          alt="Dashboard Image"
+          src="/images/contact1.jpg"
+          alt="Contact Image"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
@@ -18,14 +18,14 @@ const Contact: React.FC = () => {
       
       <div className="relative">
         <div>
-          <h1 className="font-bold text-center text-3xl">Dashboard</h1>
+          <h1 className="font-bold text-center text-3xl">Contact </h1>
         </div>
 
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/dash2.jpg"
-              alt="dashboard image"
+              src="/images/contact1.jpg"
+              alt="Contact image"
               width={1000}
               height={1000}
               className="w-full h-auto object-contain object-center"
