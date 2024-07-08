@@ -31,10 +31,14 @@ export default function About() {
           </div>
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <p className="shadow-lg text-xl rounded-lg p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-              Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. <br />
-              Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias. <br />
+            <p className="shadow-lg rounded-lg p-4 font-semibold">
+              <i>Ochieng Onyango</i> is a passionate poet whose words weave vivid imagery and deep emotions.
+              <br />
+              His work explores themes of love, identity, and the human experience, drawing inspiration from everyday moments and profound personal journeys.
+              <br />
+              With a unique voice and a gift for storytelling, Ochieng&apos;s poetry resonates with readers, inviting them to reflect and connect on a deeper level.
+              <br />
+              His collections have been celebrated for their lyrical beauty and poignant insights, making him a cherished voice in contemporary poetry.
             </p>
           </div>
 
