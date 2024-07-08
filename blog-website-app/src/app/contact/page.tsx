@@ -1,17 +1,38 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import React from 'react'
 
 const Contact: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <Head>
-            <title>Contact</title>
-            <meta name="description" content="Contact page" />
-        </Head>
-        <div className="max-w-md w-full space-y-8">
-            <div>
-                <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Contact Us</h2>
-            </div>
+    <div className="relative min-h-screen bg-gray-50 flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8">
+
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <Image
+          src="/images/dash1.jpg"
+          alt="Dashboard Image"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-70"
+        />
+      </div>
+      
+      <div className="relative">
+        <div>
+          <h1 className="font-bold text-center text-3xl">Dashboard</h1>
+        </div>
+
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <Image
+              src="/images/dash2.jpg"
+              alt="dashboard image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
+
+          <div className="sm:w-1/2 w-full flex justify-center">
             <form className="mt-8 space-y-6" action="#" method="POST">
                 <div className="rounded-md shadow-sm -space-y-px">
                     <div>
@@ -58,8 +79,12 @@ const Contact: React.FC = () => {
                     </button>
                 </div>
             </form>
+          </div>
+
+        </div>
         </div>
     </div>
+        
   );
 };
 
