@@ -69,16 +69,46 @@ const Dashboard = () => {
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <p className="shadow-lg text-xl rounded-lg p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-              Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. <br />
-              Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias. <br />
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              MAY THE SOUL OF PAP ONDITI VICTIMS REST IN PEACE😭😭<br />
+              <br />
+              Upon the road from Kisumu they did tread,<br />
+              With hopes and dreams within their weary heads.<br />
+              Calls made to loved ones, promises were spread,<br />
+              Of reunions soon, in warmth they would be led.<br />
+              <br />
+
+              At Ahero, bags of rice they did procure,<br />
+              To feed their families, to make their futures sure.<br />
+              But fate&apos;s cruel hand, it did obscure,<br />
+              Their final journey, destiny obscure.<br />
+              <br />
+
+              In Katito, bananas and water they did buy,<br />
+              To quench their thirst beneath the blazing sky.<br />
+              Little did they know, they soon would fly,<br />
+              To realms unknown, where sorrow does lie.<br />
+              <br />
+
+              Among them, a boy with future bright,<br />
+              A leader, a preacher, or a beacon of light.<br />
+              But destiny&apos;s whim, it took its flight,<br />
+              Leaving behind a void, an endless night.<br />
+              <br />
+
+              Mothers weep by the roadside, hearts torn apart,<br />
+              Their promises broken, dreams shattered in part.<br />
+              Gifts for children, now a painful art,<br />
+              As sorrow grips, and tears freely start.<br />
+              <br />
+              <i>~OCHIENG ONYANGO</i>
+
             </p>
           </div>
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/dash2.jpg"
+              src="/images/dash5.jpg"
               alt="dashboard image"
               width={1000}
               height={1000}
