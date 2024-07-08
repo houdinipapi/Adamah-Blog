@@ -1,6 +1,7 @@
 "use client"
 
-import Dashboard from "@/app/dashboard/page";
+import Home from "@/app/page";
+// import Dashboard from "@/app/dashboard/page";
 import { SignIn } from "@clerk/nextjs";
 import { useAuth } from "@clerk/nextjs";
 import { useEffect } from "react";
@@ -18,7 +19,8 @@ export default function SignInPage() {
 
   return (
     <div>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Home />
     </div>
   );
 }
