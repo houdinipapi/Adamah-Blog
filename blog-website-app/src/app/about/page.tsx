@@ -17,10 +17,10 @@ export default function About() {
 
       <div className="relative max-w-6xl mx-auto">
         <div>
-          <h1 className="font-bold text-center text-3xl">About</h1>
+          <h1 className="font-bold text-center text-3xl">About Author</h1>
         </div>
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
-          <div className="sm:w-1/2 w-full">
+          <div className="sm:w-1/2 w-full flex justify-center">
             <Image
               src="/images/about1.jpg"
               alt="about image"
@@ -30,8 +30,8 @@ export default function About() {
             />
           </div>
 
-          <div className="sm:w-1/2 w-full">
-            <p className="text-lg shadow-lg rounded-lg p-4">
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <p className="shadow-lg text-xl rounded-lg p-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
             </p>
           </div>
