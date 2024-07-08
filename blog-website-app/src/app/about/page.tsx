@@ -32,7 +32,9 @@ export default function About() {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg text-xl rounded-lg p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. <br />
+              Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias. <br />
             </p>
           </div>
 
