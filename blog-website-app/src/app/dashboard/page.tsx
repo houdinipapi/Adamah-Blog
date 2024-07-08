@@ -24,8 +24,8 @@ const Dashboard = () => {
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/about1.jpg"
-              alt="about image"
+              src="/images/dash2.jpg"
+              alt="dashboard image"
               width={1000}
               height={1000}
               className="w-full h-auto object-contain object-center"
@@ -55,8 +55,8 @@ const Dashboard = () => {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/about1.jpg"
-              alt="about image"
+              src="/images/dash3.jpg"
+              alt="dashboard image"
               width={1000}
               height={1000}
               className="w-full h-auto object-contain object-center"
@@ -69,8 +69,8 @@ const Dashboard = () => {
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/about1.jpg"
-              alt="about image"
+              src="/images/dash4.jpg"
+              alt="dashboard image"
               width={1000}
               height={1000}
               className="w-full h-auto object-contain object-center"
