@@ -32,7 +32,7 @@ export default function About() {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg rounded-lg p-4 font-semibold">
-              <i>Ochieng Onyango</i> is a passionate poet whose words weave vivid imagery and deep emotions.
+              <i>OCHIENG ONYANGO</i> is a passionate poet whose words weave vivid imagery and deep emotions.
               <br />
               His work explores themes of love, identity, and the human experience, drawing inspiration from everyday moments and profound personal journeys.
               <br />

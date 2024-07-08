@@ -34,6 +34,8 @@ const Dashboard = () => {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg font-semibold rounded-lg p-4">
+              DEAR MOTHER <br />
+              <br />
               Dear mother, I know you&apos;re concerned,<br />
               About my decision to take to the streets, to be heard.<br />
               But I must stand up, for what is right,<br />
@@ -122,7 +124,7 @@ const Dashboard = () => {
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
           <div className="sm:w-1/2 w-full flex justify-center">
             <Image
-              src="/images/dash4.jpg"
+              src="/images/dash7.jpg"
               alt="dashboard image"
               width={1000}
               height={1000}
@@ -131,10 +133,19 @@ const Dashboard = () => {
           </div>
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <p className="shadow-lg text-xl rounded-lg p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-              Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. <br />
-              Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias. <br />
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              HISTORY OF WAR <br />
+              <br />
+              In the history of war...not all wars fought were won...On all the soldiers who took the big step into the battlefield...not all came back home....
+              <br />
+              <br />
+              The pride of war is not solely based on emerging victorious...sometimes the courage to fight...the belief of fighting for something that you believe in and the desire to bring joy to those you left behind is the greatest source of motivation for soldiers...
+              <br />
+              <br />
+              Gen Zs had the courage to challenge the gladiators...they reminisced the challenge...they fought to the end...May the departed HEROES and HEROINES rest in Power.
+              <br />
+              <br />
+              <i>~ OCHIENG ONYANGO</i>
             </p>
           </div>
 

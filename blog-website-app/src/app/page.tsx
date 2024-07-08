@@ -22,6 +22,8 @@ export default function Home() {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg font-semibold rounded-lg p-4">
+              HISTORY OF WAR <br />
+              <br />
               In the history of war...not all wars fought were won...On all the soldiers who took the big step into the battlefield...not all came back home....
               <br />
               <br />
