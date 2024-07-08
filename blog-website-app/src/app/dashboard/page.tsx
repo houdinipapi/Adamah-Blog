@@ -7,7 +7,7 @@ const Dashboard = () => {
 
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Image
-          src="/images/dash1.jpg"
+          src="/images/dashback1.jpg"
           alt="Dashboard Image"
           layout="fill"
           objectFit="cover"
