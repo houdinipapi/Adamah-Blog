@@ -7,32 +7,39 @@ export default function About() {
 
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Image
-          src="/images/dash1.jpg"
+          src="/images/about1.jpg"
           alt="Dashboard Image"
           layout="fill"
           objectFit="cover"
-          className="opacity-70"
+          className="opacity-50"
         />
       </div>
 
-      <div className="relative">
+      <div className="relative max-w-6xl mx-auto">
         <div>
           <h1 className="font-bold text-center text-3xl">About</h1>
         </div>
-        <div className="my-4 columns-2">
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="sm:w-1/2 w-full">
+            <Image
+              src="/images/about1.jpg"
+              alt="about image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
 
-          <p className="text-lg shadow-lg rounded-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
-          </p>
+          <div className="sm:w-1/2 w-full">
+            <p className="text-lg shadow-lg rounded-lg p-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore dicta reiciendis ab vel dolor aliquid, cumque culpa assumenda expedita aliquam ducimus temporibus nihil deleniti odio voluptas rerum, non velit dignissimos esse deserunt. Perspiciatis repellat nobis tenetur cum nesciunt officia possimus, corrupti sequi doloremque nam consequuntur eveniet omnis, nemo molestias.
+            </p>
+          </div>
 
-          
-
-          
         </div>
         
       </div>
         
-
     </div>
   )
 }
