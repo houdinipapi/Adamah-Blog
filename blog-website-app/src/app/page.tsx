@@ -21,7 +21,7 @@ export default function Home() {
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <p className="shadow-lg text-xl font-semibold rounded-lg p-4">
+            <p className="shadow-lg font-semibold rounded-lg p-4">
               In the history of war...not all wars fought were won...On all the soldiers who took the big step into the battlefield...not all came back home....
               <br />
               <br />
