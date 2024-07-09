@@ -1,8 +1,31 @@
-import Head from 'next/head';
+"use client"
+
 import Image from 'next/image';
 import React from 'react';
+import emailjs from "@emailjs/browser"
 
 const Contact: React.FC = () => {
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
+      e.currentTarget,
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
+    )
+      .then((result) => {
+        console.log(result.text);
+        alert("Message sent successfuly!");
+      }, (error) => {
+        console.log(error.text);
+        alert("Failed to send message. Please try again.");
+      });
+
+    e.currentTarget.reset();
+  };
+
   return (
     <div className="relative min-h-screen bg-gray-50 flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8">
       <div className="absolute inset-0 w-full h-full overflow-hidden">
@@ -32,13 +55,13 @@ const Contact: React.FC = () => {
           </div>
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <form className="mt-8 space-y-6 w-full max-w-md" action="#" method="POST">
+            <form className="mt-8 space-y-6 w-full max-w-md" onSubmit={sendEmail}>
               <div className="rounded-md shadow-sm space-y-4">
                 <div>
                   <label htmlFor="name" className="sr-only">Name</label>
                   <input
                     id="name"
-                    name="name"
+                    name="from_name"
                     type="text"
                     required
                     className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
@@ -49,7 +72,7 @@ const Contact: React.FC = () => {
                   <label htmlFor="email" className="sr-only">Email address</label>
                   <input
                     id="email"
-                    name="email"
+                    name="reply_to"
                     type="email"
                     autoComplete="email"
                     required
