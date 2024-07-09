@@ -5,7 +5,7 @@ import About from '@/app/about/page';
 
 const Header = () => {
   return (
-    <div className='bg-gray-800 text-neutral-100'>
+    <div className='bg-gray-800 text-white'>
       <div className="container mx-auto flex items-center justify-between py-4 font-semibold">
         <Link href="/">Home</Link>
         <div className='flex items-center gap-4 font-semibold'>
