@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
 
       <div className="relative max-w-6xl mx-auto">
         <div>
-          <h1 className="font-bold text-center text-3xl">Contact</h1>
+          <h1 className="font-bold text-center text-3xl"><strong>CONTACT</strong></h1>
         </div>
 
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
