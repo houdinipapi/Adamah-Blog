@@ -150,6 +150,65 @@ const Dashboard = () => {
           </div>
 
         </div>
+
+        {/* Part 4 */}
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              <strong>LET&apos;S SAVE THE FUTURE</strong> <br />
+              <br />
+              In Kenya&apos;s land of beauty and grace,<br />
+              A challenge we face burden we bear,<br />
+              Adolescents, 24.6%, a quarter of our race,<br />
+              Their future, our hope, our nation&apos;s next in line.<br />
+              <br />
+              From 10 to 19, they&apos;re the ones to empower,<br />
+              Their voices, their dreams, we must hear and support,<br />
+              For they&apos;ll be the workers, mothers, and fathers of tomorrow,<br />
+              Protected from harm, their potential we must borrow.<br />
+              <br />
+              Adolescent pregnancy, a threat to their fate,<br />
+              Interrupted education, a loss we cannot abate,<br />
+              Health and wealth suffer, a cycle we must break,<br />
+              Delaying sexual initiation, a choice we must make.<br />
+              <br />
+              HIV infections rise, a burden we cannot ignore,<br />
+              Adolescent mothers, a lifetime of treatment they must endure,<br />
+              Poverty spreads like wildfire, a drain on our nation&apos;s resources,<br />
+              Violence infringes on rights, a threat to our humanity&apos;s courses.<br />
+              <br />
+              Child marriage and FGM, practices we must denounce,<br />
+              Perpetrators must face justice, a law we must enforce,<br />
+              Triple threat, a drain on our girls, our families, and our land,<br />
+              Everybody&apos;s responsibility, to end this menace, hand in hand.<br />
+              <br />
+              Say no to child violence, teenage pregnancy, a form of abuse,<br />
+              It&apos;s a criminal offense, to aid child marriage, we must refuse,<br />
+              Defilement punishable by law, we must report and stop before it&apos;s too late,<br />
+              Children have a voice, they must shout, they must participate.<br />
+              <br />
+              Dial 1195, for assistance and aid,<br />
+              Create awareness on sexuality issues, let&apos;s educate and persuade,<br />
+              For a quality population, a prosperous nation we strive,<br />
+              Together we can, empower our youth, and let our nation thrive.<br />
+              <br />
+              <i>~OCHIENG ONYANGO</i>
+
+            </p>
+          </div>
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <Image
+              src="/images/dash8.jpg"
+              alt="dashboard image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
+
+        </div>
         
       </div>
         
