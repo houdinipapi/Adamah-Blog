@@ -16,13 +16,13 @@ export default function Home() {
 
       <div className="relative max-w-6xl mx-auto">
         <div>
-          <h1 className="font-bold text-center text-3xl">Home</h1>
+          <h1 className="font-bold text-center text-3xl"><strong>HOME</strong></h1>
         </div>
         <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg font-semibold rounded-lg p-4">
-              HISTORY OF WAR <br />
+              <strong>HISTORY OF WAR</strong> <br />
               <br />
               In the history of war...not all wars fought were won...On all the soldiers who took the big step into the battlefield...not all came back home....
               <br />
