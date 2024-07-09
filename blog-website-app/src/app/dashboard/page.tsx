@@ -17,7 +17,7 @@ const Dashboard = () => {
 
       <div className="relative">
         <div>
-          <h1 className="font-bold text-center text-3xl">Dashboard</h1>
+          <h1 className="font-bold text-center text-3xl"><strong>DASHBOARD</strong></h1>
         </div>
         
         {/* Part 1 */}
@@ -34,7 +34,7 @@ const Dashboard = () => {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg font-semibold rounded-lg p-4">
-              DEAR MOTHER <br />
+              <strong>DEAR MOTHER</strong> <br />
               <br />
               Dear mother, I know you&apos;re concerned,<br />
               About my decision to take to the streets, to be heard.<br />
@@ -72,7 +72,7 @@ const Dashboard = () => {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg font-semibold rounded-lg p-4">
-              MAY THE SOUL OF PAP ONDITI VICTIMS REST IN PEACE😭😭<br />
+              <strong>MAY THE SOUL OF PAP ONDITI VICTIMS REST IN PEACE😭😭</strong><br />
               <br />
               Upon the road from Kisumu they did tread,<br />
               With hopes and dreams within their weary heads.<br />
@@ -134,7 +134,7 @@ const Dashboard = () => {
 
           <div className="sm:w-1/2 w-full flex justify-center">
             <p className="shadow-lg font-semibold rounded-lg p-4">
-              HISTORY OF WAR <br />
+              <strong>HISTORY OF WAR</strong> <br />
               <br />
               In the history of war...not all wars fought were won...On all the soldiers who took the big step into the battlefield...not all came back home....
               <br />
