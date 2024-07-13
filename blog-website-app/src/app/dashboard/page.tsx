@@ -304,6 +304,37 @@ const Dashboard = () => {
           </div>
 
         </div>
+
+        {/* Part 8 */}
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              <strong>FAIR GAME</strong> <br />
+              <br />
+              There is nothing as motivating as watching a fair game,<br />
+              A game conducted on a non-skewed playing field,<br />
+              In this scenario,<br />
+              Everybody enjoys and congratulates one another when either team makes a score,<br />
+              This is a score that is universally celebrated as every participant focuses on another day,<br />
+              This is a game that God advocates for.<br />
+              <br />
+              <i>~OCHIENG ONYANGO</i>
+
+            </p>
+          </div>
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <Image
+              src="/images/fair-game2.jpg"
+              alt="dashboard image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
+
+        </div>
         
       </div>
         
