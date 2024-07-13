@@ -236,7 +236,7 @@ const Dashboard = () => {
               You are the pillars upon which humanity rests...<br />
               You are we...<br />
               You are the springs upon which the world is nourished!<br />
-              Happy women&apos;s Day<br />
+              HAPPY WOMEN&apos;S DAY<br />
               <br />
               <i>~ OCHIENG ONYANGO</i>
             </p>
@@ -272,6 +272,35 @@ const Dashboard = () => {
               height={1000}
               className="w-full h-auto object-contain object-center"
             />
+          </div>
+
+        </div>
+
+        {/* Part 7 */}
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <Image
+              src="/images/not-good.jpg"
+              alt="dashboard image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              <strong>NOT EVERY GOOD...</strong> <br />
+              <br />
+              Not every good thing counts,<br />
+              Some good things you do may turn into a weapon others use against you,<br />
+              When you see this happening,<br />
+              Don&apos;t give up,<br />
+              Instead ask God,<br />
+              To give you more strength to continue doing good.<br />
+              <br />
+              <i>~ OCHIENG ONYANGO</i>
+            </p>
           </div>
 
         </div>
