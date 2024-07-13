@@ -243,6 +243,38 @@ const Dashboard = () => {
           </div>
 
         </div>
+
+        {/* Part 6 */}
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              <strong>MOTHER&apos;S DAY</strong> <br />
+              <br />
+              We celebrate the MOTHERS who made us see the light of day<br />
+              Alongside those who now lead the way....<br />
+              Without you...<br />
+              The world could have been pale and lifeless...<br />
+              Humanity could have been grounded, extinct and forgotten...<br />
+              HAPPY MOTHER&apos;S DAY TO ALL MOTHERS<br />
+
+              <br />
+              <i>~OCHIENG ONYANGO</i>
+
+            </p>
+          </div>
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <Image
+              src="/images/mother-africa.jpg"
+              alt="dashboard image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
+
+        </div>
         
       </div>
         
