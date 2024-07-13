@@ -209,6 +209,40 @@ const Dashboard = () => {
           </div>
 
         </div>
+
+        {/* Part 5 */}
+        <div className="my-8 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <Image
+              src="/images/african-women.jpg"
+              alt="dashboard image"
+              width={1000}
+              height={1000}
+              className="w-full h-auto object-contain object-center"
+            />
+          </div>
+
+          <div className="sm:w-1/2 w-full flex justify-center">
+            <p className="shadow-lg font-semibold rounded-lg p-4">
+              <strong>WOMEN&apos;S DAY</strong> <br />
+              <br />
+              Today is women&apos;s day...<br />
+              I appreciate the women without whom our life would be a downer and a bum trip...<br />
+              I appreciate those who brought essence in the vagueness of existence...<br />
+              Those who taught us to live and to love...<br />
+              Those who gave a clock to our timelessness and a radar to our journey...<br />
+              I appreciate with a tender heart those who would endure our wrongs and those who believe in us even in moments of disbelief...<br />
+              Much appreciation to those who throw a shade of light in a dimly lit futures full of unknowns...<br />
+              You are the pillars upon which humanity rests...<br />
+              You are we...<br />
+              You are the springs upon which the world is nourished!<br />
+              Happy women&apos;s Day<br />
+              <br />
+              <i>~ OCHIENG ONYANGO</i>
+            </p>
+          </div>
+
+        </div>
         
       </div>
         
